@@ -87178,11 +87178,15 @@
     "type": "apiKey",
     "name": "authorization",
     "in": "header"
-   }
+   },
+    "BasicAuth": {
+      "type": "basic"
+    }
   },
   "security": [
    {
-    "BearerToken": []
+    "BearerToken": [],
+    "BasicAuth":[]
    }
   ]
  }
